@@ -31,6 +31,7 @@ def find_greater_pair(src)
   while row_index <
   src.count do 
     larger_numbers.push(src[row_index].max)
+    row_index += 1 
   end
   larger_numbers    
 end
